@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+    <nav class="navbar">
+        <div class="logo">YL</div>
+        <div class="nav-links">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#career">CAREER JOURNEY</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+        <div class="nav-actions">
+            <a href="#" class="resume-btn">Resume</a>
+            <button id="theme-toggle" class="theme-toggle">
+                <span class="theme-toggle-icon">🌙</span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <p class="welcome-text">👋 Welcome to my portfolio</p>
+            <h1>Hi, <span class="highlight">I'm</span> CK</h1>
+            <p class="hero-description">
+                I'm a Software Engineer specializing in 
+                <span class="highlight">full-stack development</span> and 
+                <span class="highlight">cloud architecture</span>, 
+                passionate about building elegant solutions to complex problems.
+            </p>
+            <div class="hero-actions">
+                <button class="btn btn-primary">Get in touch</button>
+                <button class="btn btn-secondary">Download Resume</button>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="code-window">
+                <div class="window-header">
+                    <div class="window-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span class="window-title">about-me.txt</span>
+                </div>
+                <div class="window-content">
+                    <div class="code-line">
+                        <span class="line-number">01</span>
+                        <span class="code-text">Software Engineer with expertise in building scalable applications</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="code-window">
+                <div class="window-header">
+                    <div class="window-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span class="window-title">projects.json</span>
+                </div>
+                <div class="window-content">
+                    <!-- Project items will go here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-container">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="window-title">contact-form.jsx</span>
+                    </div>
+                    <div class="window-content">
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <input type="text" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="your.email@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Your message here..." rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
